@@ -1,13 +1,15 @@
 Twitter Elon Musk Controversy Sentiment Analysis
 This repository contains code and analyses for sentiment analysis on the recent controversy surrounding Elon Musk and Twitter. Using various machine learning models, we aim to understand public sentiment on this topic, based on data collected from Twitter.
 
-Project Overview
+Project Overview:
+
 In light of the recent events involving Elon Musk and Twitter, public opinion has been divided. Our project seeks to quantify this sentiment through the application of several sentiment analysis models, providing insights into how different demographics and user groups perceive the controversy.
 
-Data Collection
+Data Collection:
+
 Tweets were collected using the Twitter API, focusing on keywords such as "Elon Musk", "Twitter", "controversy", and other relevant terms. The dataset spans a period from [start date] to [end date], capturing the evolution of public opinion over time.
 
-Models Used
+Models Used:
 We employed a variety of models to ensure a comprehensive analysis:
 
 Naive Bayes Classifier: A baseline model for sentiment classification.
@@ -22,13 +24,16 @@ Topic Modeling: Identifying key themes within the controversy that drive positiv
 Getting Started
 To replicate our analysis or conduct your own, follow these steps:
 
-Prerequisites
+Prerequisites:
+
 Ensure you have Python 3.6+ installed. Then, install the required libraries:
 
 bash
-Copy code
+Copy code:
+
 pip install -r requirements.txt
-Data Collection
+Data Collection:
+
 Use the twitter_data_collection.py script to collect tweets related to the controversy. You will need to have Twitter API credentials.
 
 Sentiment Analysis
